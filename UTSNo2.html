@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pendaftaran</title>
+    <style>
+        body {
+            background-color: yellow;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .header-container {
+
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .header {
+            color: blue;
+            font-size: 24px;
+            margin: 5px 0;
+        }
+        .logo {
+            display: block;
+            margin: 10px auto;
+            width: 80px; /* Sesuaikan ukuran logo */
+            height: auto;
+        }
+        .address {
+            text-align: right;
+            color: red;
+            font-size: 18px;
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+        }
+        .address span {
+            display: inline-block;
+            animation: slideLeft 10s linear infinite;
+        }
+        @keyframes slideLeft {
+            from { transform: translateX(100%); }
+            to { transform: translateX(-500%); }
+        }
+        hr {
+
+            height: 5px;
+            background-color: black;
+            border: none;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            max-width: 400px;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        td {
+            padding: 5px;
+            border: 1px solid black;
+        }
+        .button-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        button {
+            padding: 8px 16px;
+            font-size: 14px;
+        }
+        .list-title {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+</style>
+</head>
+<body>
+
+<!-- Header dan Logo -->
+<div class="header-container">
+    <img src="https://upload.wikimedia.org/wikipedia/id/thumb/8/8f/Logo_Universitas_Indraprasta_PGRI_%28UNINDRA%29.png/250px-Logo_Universitas_Indraprasta_PGRI_%28UNINDRA%29.png" alt="Logo
+UNINDRA" class="logo">
+<div class="header">UNIVERSITAS INDRAPRASTA PGRI (UNINDRA)</div>
+</div>
+
+<div class="address">
+<span>Jl. Nangka No.58 Tanjung Barat-JakSel</span>
+</div>
+
+<hr>
+
+<table>
+    <tr>
+        <td>Nama</td>
+        <td>:</td>
+        <td>Nama Anda masing-masing</td>
+    </tr>
+    <tr>
+        <td>NPM</td>
+        <td>:</td>
+        <td>NPM Anda masing-masing</td>
+    </tr>
+</table>
+
+<div class="list-title">FTIK:</div>
+    <ol type="A">
+        <li>Informatika</li>
+        <li>Teknik Arsitektur</li>
+
+        <li>Teknik Industri</li>
+    </ol>
+
+<div class="list-title">MIPA:</div>
+    <ol type="I">
+        <li>Matematika</li>
+        <li>Fisika</li>
+        <li>Biologi</li>
+    </ol>
+
+<div class="button-container">
+    <button>SIMPAN</button>
+</div>
+
+</body>
+</html>
